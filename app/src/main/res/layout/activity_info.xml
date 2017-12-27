@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:visibility="gone"
+
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/titleNameRu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text=""
+        android:textColor="@color/allText"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleNameRu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"/>
+        <!--android:adjustViewBounds="true"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:maxWidth="139dip"-->
+
+
+    <TextView
+        android:id="@+id/infoNameEng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleNameRu"
+        android:layout_toEndOf="@+id/imageTitle"
+        android:layout_toRightOf="@+id/imageTitle"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/infoYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/infoNameEng"
+        android:layout_alignStart="@+id/infoNameEng"
+        android:layout_below="@+id/infoNameEng"
+        android:padding="5dp"
+        android:textColor="@color/allText" />
+
+    <TextView
+        android:id="@+id/raiting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/infoYear"
+        android:layout_alignStart="@+id/infoYear"
+        android:layout_below="@+id/infoYear"
+        android:layout_toRightOf="@+id/imageTitle"
+        android:paddingLeft="5dp"
+        android:text=" "
+        android:textColor="@color/allText"
+
+        />
+
+    <TextView
+        android:id="@+id/infoRatio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/infoYear"
+        android:layout_toRightOf="@+id/raiting"
+        android:textColor="@color/raitText" />
+
+    <TextView
+        android:id="@+id/infoDiscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageTitle"
+        android:padding="5dp"
+        android:textColor="@color/allText" />
+
+
+
+
+
+</RelativeLayout>

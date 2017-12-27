@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="titleInMain">23dp</dimen>
+    <dimen name="nameRuInMain">16dp</dimen>
+    <dimen name="nameEngInMain">16dp</dimen>
+    <dimen name="raitInMain">16dp</dimen>
+    <dimen name="nameRuInfo">16dp</dimen>
+    <dimen name="nameEngInfo">16dp</dimen>
+    <dimen name="infoTitle">16dp</dimen>
+
+</resources>
